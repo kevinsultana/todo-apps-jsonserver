@@ -1,9 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "user": [
+    {
+      "id": "eb00",
+      "userName": "kevin123",
+      "password": "123123"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "todos": [
+    {
+      "id": "a010",
+      "title": "hallo",
+      "description": "halo apa kabarnya lagi coba testing",
+      "userId": "eb00",
+      "isDone": false,
+      "dueDate": "2025-07-12"
+    }
+  ]
 }
